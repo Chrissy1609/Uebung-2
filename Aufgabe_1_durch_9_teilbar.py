@@ -8,5 +8,8 @@ minZahl = 0
 maxZahl = 90
 
 
-for i in range(maxZahl-minZahl):
-    pruefZahl = (minZahl + i) % 9 == 0
+for i in range((maxZahl + 1) - minZahl):
+    pruefJahr = minZahl + i
+    if (pruefJahr % 9 == 0):
+        Zahlen.append(pruefJahr)
+        print(i)
