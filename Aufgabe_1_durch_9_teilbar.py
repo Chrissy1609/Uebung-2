@@ -4,8 +4,8 @@
 
 Zahlen = []
 
-minZahl = 0
-maxZahl = 90
+minZahl = int(input("Untere Grenzahl"))             # Eingabe einer Zahlt
+maxZahl = int(input("Obere Grenzahl"))              # Eingabe einer höeren Zahl 
 
 
 for i in range((maxZahl + 1) - minZahl):
