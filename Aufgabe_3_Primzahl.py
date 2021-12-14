@@ -6,8 +6,8 @@ minZahl = int(input("Anfang der Liste "))                                       
 maxZahl = int(input("Ende der Liste "))                                             # obere Zahl zum Prüfen                                                                      
 primZahl = []                                                                       # Liste der Primzahlen 
 
-for kantidat in range(minZahl, maxZahl + 1):                                        #
-    is_primz = True                                                                 #
+for kantidat in range(minZahl, maxZahl + 1):                                        # schleife 
+    is_primz = True                                                                 # 
     for teiler in range(2, int(kantidat/2)+1):                                      #
         if kantidat % teiler == 0 and teiler < kantidat:                            #
             is_primz = False                                                        #
